@@ -1,29 +1,28 @@
 ************************************************
-***********	      ����           ***********
-***********	   2014011575        ***********
+***********	      郭畅           ***********
 ***********	   2018.01.11        ***********
 ************************************************
 
-�ļ�˵����
+#### 文件说明：
 
-	ִ�нű���
+	执行脚本：
 
-	main.m:	ʵ��80%��20%�����жϵ����ű������ɭ�֣�
-	CrossValidation.m:  ʵ��10��������֤�Ľű����ı���main��
-	ROC.m:  ʵ��rocԭ���Ľű����������Ϊһ���㣩���ı���main��
+	main.m:	实现80%和20%划分判断的主脚本（随机森林）
+	CrossValidation.m:  实现10倍交叉验证的脚本（摘取自main）
+	ROC.m:  实现roc原理的脚本（摘取自main）
 
-	������
+	函数：
 
-	DecisionTree.m:	����������
-	Draw.m:		���������ֲ����	
-	Statistics.m:	��������Ϣ����ͳ��
-	SelectData:	û�зŻصİ�����ѡȡ����
-	BackSelectData:	�зŻصİ�����ѡȡ����
-	Judge.m:	���Ժ���
-	PrintTree.m:	��ӡ���ĺ���
+	DecisionTree.m:	基于ID3构建决策树
+	Draw.m:		画出特征分布情况	
+	Statistics.m:	对特征信息进行统计
+	SelectData:	没有放回的按比例选取数据
+	BackSelectData:	有放回的按比例选取数据
+	Judge.m:	测试函数
+	PrintTree.m:	打印树的函数
 
 
 
-����˵����
+#### 代码说明：
 
-100%�Լ���д
+100%自己编写
